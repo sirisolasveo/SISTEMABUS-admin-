@@ -1,0 +1,29 @@
+*, html, body{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    background-color: darkturquoise;
+}
+ul li{
+    display: inline-block;
+}
+header nav{
+    float: right;
+}
+.logo img{
+    margin-top: 30px;
+    height: 80px;
+    width: 80px;
+}
+header nav ul li a{
+    padding-right: 30px;
+    font-weight: bold;
+    color: white;
+    transition: all 0.5s ease-in;
+}
+header nav li a:hover{
+    text-decoration: none;
+    color: red;    
+}
